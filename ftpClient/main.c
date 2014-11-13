@@ -141,13 +141,11 @@ void send_command_PORT(struct session_t *session,char *param)
     char buff[BUFSIZ];
     unsigned short portport = rand() % 40000 + 20000;
     struct sockaddr_in portaddr;
-
+    socklen_t addr_len = sizeof(portaddr);
     unsigned char* s =(void *) &portaddr.sin_addr;
     
-    getsockname(session->sockfd,(struct sockaddr *)&portaddr,&(session->addr_size));
-    
+    getsockname(session->sockfd,(struct sockaddr *)&portaddr,&(addr_len));
     portaddr.sin_port = htons(portport);
-    
     
     session->portfd = socket(PF_INET,SOCK_STREAM,0);
     
@@ -216,7 +214,6 @@ void close_data_connect(struct session_t *session)
     session->datafd = 0;
     session->state = 0;
 }
-
 
 void send_command_QUIT(struct session_t *session,char *param)
 {
@@ -334,11 +331,11 @@ int main(int argc,char * argv[]) {
     
     if (argc==1)
     {
-        printf("usage:%s [-p] ip [port]\n",argv[0]);
+        printf("usage:%s [-a] ip [port]\n",argv[0]);
         return 0;
     }
-    if (strcmp(argv[1],"-p")==0) {
-        printf("Use PORT.\n");
+    if (strcmp(argv[1],"-a")==0) {
+        printf("Use Active Mode.\n");
         usePASV = 0;
         ++argv;
         --argc;

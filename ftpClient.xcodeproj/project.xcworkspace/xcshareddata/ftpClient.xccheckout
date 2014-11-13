@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>728398D5-F96C-44E5-A2C7-0D924E817645</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ftpClient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C8B2B32E88B1B63C6566E59505507383256CD94B</key>
+		<string>https://github.com/yuzeming/ftpclient</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ftpClient.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C8B2B32E88B1B63C6566E59505507383256CD94B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yuzeming/ftpclient</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C8B2B32E88B1B63C6566E59505507383256CD94B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C8B2B32E88B1B63C6566E59505507383256CD94B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ftpClient</string>
+		</dict>
+	</array>
+</dict>
+</plist>
