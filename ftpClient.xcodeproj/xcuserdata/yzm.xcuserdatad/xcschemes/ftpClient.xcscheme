@@ -60,6 +60,10 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
+            argument = "-a"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
             argument = "127.0.0.1"
             isEnabled = "YES">
          </CommandLineArgument>
